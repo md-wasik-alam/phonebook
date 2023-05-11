@@ -18,7 +18,7 @@ const handleDelete = async (id) => {
     }
   })
   data = await data.json()
-  console.log(data)
+  
 }
 
 

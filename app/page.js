@@ -16,7 +16,7 @@ export default async function Home() {
         }
       })
       data = await data.json()
-      console.log(data)
+      
   }
 
   // const [refresh, setRefresh] = useState(true)

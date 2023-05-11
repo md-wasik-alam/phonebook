@@ -25,7 +25,7 @@ const Insert = () => {
            body:JSON.stringify(phonebook)
         })
         data= await data.json()
-        console.log(data.data);
+        
         setPhonebook(init);
         // setRefresh(!refresh)
     }
